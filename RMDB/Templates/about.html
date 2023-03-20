@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Reid Movie Data Base</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cards.css')}}">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navbar__container">
+			<a href="/views" id="navbar__logo">RMDB</a>
+			<div class="navbar__toggle" id="mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="navbar__menu">
+				<li class="navbar__item">
+					<a href="/views" class="navbar__links">
+						Home
+					</a>
+				</li>
+				<li class="navbar__item">
+					<a href="/views/movies" class="navbar__links">
+						Movies
+					</a>
+				</li>
+				<li class="navbar__item">
+					<a href="/views/ReidsPicks" class="navbar__links">
+						Reid's picks
+					</a>
+				</li>
+				<li class="navbar__item">
+					<a href="/views/about" class="navbar__links">
+						About
+					</a>
+				</li>
+				<li class="navbar__btn">
+					<a href="/views" class="button">
+						Sign Up
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+    <div class="container">
+		<div class="imageA">
+			<img src="{{url_for('static',filename='pic1.svg')}}" alt="pic" class="main__img">
+		</div>
+        <div class="textA">
+          <h1>What is RMDB?</h1>
+          <p>My name is Reid Harrington, I am a first year computer science student at Laurier University. This is a personal project I have been working on in my spare time. It takes a text document filled with a list of movies, and a python script converts the movies into movie objects. This website displays the python movie objects and uses a movie database API for the posters.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
