@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Sofia Sans Semi Condensed', sans-serif
+  }
+  
+  
+  
+  .movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+
+.card-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card {
+    height: 400px;
+    width: 250px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    transition: 0.3s;
+}
+  .card:hover{
+    transform:scale(1.2);
+    background-color: #fff;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+
+}
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .card a {
+    display: block;
+    height: 100%;
+  }
+
+  .movieSelection {
+    display: flex;
+    align-items: center;
+  }
+  
+  .movieSelection img{
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .textA {
+    flex: 1;
+    margin-right: 30px;
+  }
+  
+  .textA h2 {
+    margin-top: 20px;
+  }
+  
+  .main__img {
+    margin-left: 0;
+    margin-top: 100px;
+    margin-right: 30px;
+    height: 400px;
+    width: auto;
+    align-self: flex-start;
+  }
