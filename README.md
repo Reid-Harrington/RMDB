@@ -5,7 +5,7 @@ My name is Reid Harrington, I am a second year computer science student at Lauri
 This is a personal project I have been working on in my spare time. It takes a text document filled with a list of movies, and a python script converts the movies into movie objects. 
 This website displays the python movie objects as sleek looking cards, and uses a movie database API to get the posters.
 
-![alt text](https://github.com/Reid-Harrington/RMDB/blob/main/RMDB/static/PortfolioPics/RMDBMoviepage.jpg?raw=true)
+![alt text](https://github.com/Reid-Harrington/RMDB/blob/main/RMDB/static/PortfolioPics/RMDBMoviepage.png?raw=true)
 ![alt text](https://github.com/Reid-Harrington/RMDB/blob/main/RMDB/static/PortfolioPics/RMDBSinglepage.jpg?raw=true)
 
 
