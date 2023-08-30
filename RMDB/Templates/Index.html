@@ -21,27 +21,27 @@
 			</div>
 			<ul class="navbar__menu">
 				<li class="navbar__item">
-					<a href="/views" class="navbar__links">
+					<a href="/" class="navbar__links">
 						Home
 					</a>
 				</li>
 				<li class="navbar__item">
-					<a href="/views/movies" class="navbar__links">
+					<a href="/movies" class="navbar__links">
 						Movies
 					</a>
 				</li>
 				<li class="navbar__item">
-					<a href="/views/ReidsPicks" class="navbar__links">
+					<a href="/ReidsPicks" class="navbar__links">
 						Reid's picks
 					</a>
 				</li>
 				<li class="navbar__item">
-					<a href="/views/about" class="navbar__links">
+					<a href="/about" class="navbar__links">
 						About
 					</a>
 				</li>
 				<li class="navbar__btn">
-					<a href="/views" class="button">
+					<a href="/" class="button">
 						Sign Up
 					</a>
 				</li>
@@ -54,7 +54,7 @@
 				<h1>Reid Movie Data Base</h1>
 				<h2>The least complete data base of movies</h2>
 				<p>Coded using objects in Python</p>
-				<button class="main__btn"><a href="/views/movies">Start Searching :)</a></button>
+				<button class="main__btn"><a href="/movies">Start Searching :)</a></button>
 			</div>
 				<div class="main__img--container">
 			<img src="{{url_for('static',filename='pic1.svg')}}" alt="pic" id="main__img">
@@ -62,6 +62,6 @@
 		</div>
 	</div>
 	<script src = "app.js"></script>
-	<p>Movie of the Day : {{ movies }}</p>
+	<p>Movie of the Day : Perfect Blue</p>
 </body>
 </html>

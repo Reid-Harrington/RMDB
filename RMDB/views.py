@@ -15,7 +15,7 @@ def get_movie_poster(title):
         poster_path = data['results'][0]['poster_path']
         poster_url = f'https://image.tmdb.org/t/p/original/{poster_path}'
     else:
-        poster_url = None
+        poster_url = "https://as2.ftcdn.net/v2/jpg/04/98/53/13/1000_F_498531376_IhfAq5OxDNyGbBuemrDKVZjNFV1H82lX.jpg"
     return poster_url
 
 fv = open("movies.txt", "r")

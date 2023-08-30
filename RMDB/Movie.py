@@ -1,7 +1,4 @@
 
-import requests
-from bs4 import BeautifulSoup 
-
 class Movie:
     """
     Defines data for a single movie: title, year, director, rating, genres.
