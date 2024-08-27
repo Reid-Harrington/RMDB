@@ -6,7 +6,7 @@ import requests
 views = Blueprint(__name__,"views")
 
 def get_movie_poster(title):
-    api_key = 'b4df95b9cc057ff5623a22b98ef494ea'
+    api_key = 'XXX' #get your own API key
     url = f'https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={title}'
     response = requests.get(url)
     data = response.json()
